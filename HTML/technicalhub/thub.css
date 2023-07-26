@@ -1,0 +1,356 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background: url('../images/Thub_Images/tcs.jpg');
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+.nav{
+    height: 15vh;
+    width: 100%;
+    padding-top: 25px;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+.nav.active
+{
+    height: 15vh;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+}
+.nav.active .n2 ul li a{
+    color: black;
+}
+.n1{
+    height: 10vh;
+    width: 40%;
+    float: left;
+}
+.n1 img{
+    padding-left: 10px;
+    height: 100%;
+    width:50%;
+}
+.n2{
+    height: 10vh;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+}
+.n2 ul{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.n2 li{
+    list-style-type: none;
+}
+.n2 a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.main1{
+    height: 60vh;
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.m1 h1{
+    font-family: 'Poppins',serif;
+    font-weight: 600px;
+    color: yellow;
+}
+.m2{
+    height: 40vh;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.x1,.x2,.x3{
+    height: 40vh;
+    width: 30vw;
+    display: flex;
+    gap: 20px;
+
+}
+.x1 img,.x2 img,.x3 img{
+    height: 80px;
+    width: 80px;
+    margin-top: 20px;
+}
+.x1 p,h2,.x2 p,h2,.x3 p,h2{
+    margin-top: 20px;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    font-weight: 200;
+    text-align: justify;
+}
+.main2{
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(181, 181, 181,0.1);
+   
+}
+.z1{
+    height: 50vh;
+    width: 50%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.z11{
+    height: 10vh;
+    width: 70%;
+    display: flex;
+    padding-top: 45px;
+    justify-content: flex-start;
+}
+.z11 h2{
+    transform: rotate(270deg);
+    font-size: 15px;
+    color: #f1c30f;
+    font-weight: 300;
+    
+}
+.z12{
+    height: 40vh;
+    width: 70%;
+    display: flex;
+    text-align: justify;
+    margin-top: 10%;
+    padding-left: 50px;
+}
+.z2{
+    height: 50vh;
+    width: 50%;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.z21{
+    height:52%;
+    width: 40%;
+    background-color:rgb(227, 165, 49);
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.z21 iframe{
+    height: 150px;
+    width: 280px;
+    position: absolute;
+    bottom: 35%;
+    right: 20%;
+    border-right: 4px solid white;
+    border-bottom: 4px solid white;
+    border-left: 6px solid rgb(223, 209, 209);
+    border-top: 6px solid rgb(223, 209, 209);
+}
+
+.main3{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+}
+.lt{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.t{
+    height: 11vh;
+    width: 70%;
+    display: flex;
+    padding-top: 45px;
+    justify-content: flex-start;
+    position: relative;
+}
+.t h2{
+    transform: rotate(270deg);
+    font-size: 15px;
+    color: #f1c30f;
+    font-weight: 300;
+}
+.t .tt{
+    position: absolute;
+    right: 300px;
+}
+.tt h1{
+    font-size:35px;
+    font-weight: 150;
+}
+.b{
+    height: 39vh;
+    width: 70%;
+    display: flex;
+    text-align: justify;
+    margin-top: 10%;
+    padding-left: 60px;
+}
+
+.rt{
+    height: 50vh;
+    width: 50%;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.main4{
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(181, 181, 181,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.top{
+    padding-top: 45px;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.top ul{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 24px;
+}
+.top ul li a{
+    text-decoration: none;
+    color:black;
+    font-family: "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+.top ul li a:hover{
+    color: #f1c30f;
+    text-decoration: underline;
+}
+.bottom{
+    height: 56vh;
+    width: 80%;
+    background-color: white;
+    display: flex;
+}
+.btml{
+    height: 56vh;
+    width: 50%;
+    
+}
+.btml img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 56vh;
+    width: 100%;
+}
+.btmr{
+    height: 56vh;
+    width: 60%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 33px;
+}
+
+.main5{
+    height: 40vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+.mainl{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.mainl .mll{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+}
+.mainlb{
+    display: flex;
+    text-align: justify;
+    margin-top: 10%;
+    padding-left: 110px;
+}
+.mainr{
+    display: flex;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 60px;
+}
+
+
+.main6{
+    height: 110vh;
+    width: 100%;
+    background-color: rgb(181, 181, 181,0.1);
+}
+.ttp{
+    height: 20vh;
+    width: 100%;
+}
+.btp{
+    margin-top: 35px;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+.bt1,.bt2,.bt3{
+    width: 25%;
+    height: 100%;
+}
+.imgg img{
+    width: 100%;
+    height: 40%;
+    background-image: cover;
+}
+.bb{
+    width: 90%;
+    height: 60%;
+    margin-left: 18px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
