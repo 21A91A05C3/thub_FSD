@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.dic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: red;
+}
+.box{
+    width: 600px;
+}
+input{
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    font-size: 28px;
+    outline: none;
+    border: 2px solid black;
+    font-weight: 20px;
+}
+
+.submit{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+.clear{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+}
+.card-title{
+    margin-top: 17px;
+}
+.shadow{
+    box-shadow: 10px 10px white,
+}
